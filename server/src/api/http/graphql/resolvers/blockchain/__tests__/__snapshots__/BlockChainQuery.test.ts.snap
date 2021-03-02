@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitQuery returns Raw Block data 1`] = `
+Object {
+  "data": Object {
+    "rawBlock": Object {
+      "block_index": 0,
+      "size": 1819006,
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`CommitQuery returns blocks data 1`] = `
+Object {
+  "data": Object {
+    "blocks": Array [
+      Object {
+        "hash": "000000000000000000082bac0859c43f89c35423049712658ee9a0963c15aaf3",
+        "height": 672046,
+        "time": 1614211561,
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

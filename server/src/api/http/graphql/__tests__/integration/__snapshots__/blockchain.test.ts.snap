@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blockchain integration tests finds block by hash 1`] = `
+Object {
+  "block_index": 0,
+  "size": 1819006,
+}
+`;
